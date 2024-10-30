@@ -1,6 +1,6 @@
 <table>
   <tr>
-    <th rowspan="8">PRODUCTO</th>
+    <th rowspan="9">PRODUCTO</th>
     <th>Campo</th>
     <th>Tipo de Campo</th>
     <th>Tipo de Clave</th>
@@ -46,3 +46,4 @@
     <td>-</td>
   </tr>
 </table>
+
