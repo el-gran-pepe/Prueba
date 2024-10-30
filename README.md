@@ -7,12 +7,12 @@
   </tr>
   <tr>
     <td>ID_Producto</td>
-    <td>VARCHAR (20)</td>
+    <td>INT / NOT NULL / AUTO_INCREMENT </td>
     <td>PK</td>
   </tr>
   <tr>
     <td>Producto</td>
-    <td>VARCHAR (100)</td>
+    <td>VARCHAR (255)</td>
     <td>-</td>
   </tr>
   <tr>
@@ -22,7 +22,7 @@
   </tr>
   <tr>
     <td>Etiqueta</td>
-    <td>VARCHAR (50)</td>
+    <td>VARCHAR (100)</td>
     <td>-</td>
   </tr>
   <tr>
@@ -32,17 +32,17 @@
   </tr>
   <tr>
     <td>ID_Marca</td>
-    <td>VARCHAR (20)</td>
+    <td>INT / NOT NULL</td>
     <td>FK</td>
   </tr>
   <tr>
     <td>Precio</td>
-    <td>FLOAT</td>
+    <td>DECIMAL (10,2)</td>
     <td>-</td>
   </tr>
   <tr>
     <td>Costo</td>
-    <td>FLOAT</td>
+    <td>DECIMAL (10,2)</td>
     <td>-</td>
   </tr>
 </table>
